@@ -1,0 +1,10 @@
+dependencies {
+    compile "org.springframework.boot:spring-boot-starter-web"
+    compile "org.springframework.session:spring-session"
+    compile "org.slf4j:jcl-over-slf4j"
+    compile "ch.qos.logback:logback-classic"
+    compile "com.fasterxml.jackson.datatype:jackson-datatype-jsr310"
+
+    testCompile 'com.jayway.jsonpath:json-path'
+    testCompile 'com.jayway.jsonpath:json-path-assert'
+}
